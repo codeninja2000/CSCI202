@@ -523,3 +523,8 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+CODE/M01/roman_decimal_convert/makefile
+CODE/.vscode/settings.json
+CODE/M01/roman_decimal_convert/compile_commands.json
+CODE/M01/roman_decimal_convert/.vscode/settings.json
+CODE/M01/roman_decimal_convert/main
