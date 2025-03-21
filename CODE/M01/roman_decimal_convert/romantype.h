@@ -18,7 +18,7 @@ public:
 
     // Function to convert roman numerals to decimal.
     // A return code of -1 indicates a failure in parsing the roman numeral
-    void romanToDecimal();
+    void convertToDecimal();
 
     void printDecimal() const;
     void printRomanNumeral() const;

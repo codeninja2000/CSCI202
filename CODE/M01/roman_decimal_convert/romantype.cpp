@@ -7,16 +7,17 @@
 
 RomanType::RomanType(std::string romanNumeral)
     : m_roman{romanNumeral}, m_decimal{0} {
-  if (!isValidRomanNumeral(romanNumeral))
-    throw std::invalid_argument("Non roman symbol encountered.");
+  if (!isValidRomanNumeral(romanNumeral) && !romanNumeral.empty())
+    throw std::invalid_argument("ill-formed roman numeral.");
 }
 
 void RomanType::setRoman(std::string &romanNumeral) {
   if (!isValidRomanNumeral(romanNumeral))
-    throw std::invalid_argument("Non roman symbol encountered.");
+    throw std::invalid_argument("ill-formed roman numeral.");
+  m_roman = romanNumeral;
 }
 
-void RomanType::romanToDecimal() {
+void RomanType::convertToDecimal() {
   std::string romanNum{m_roman};
   std::reverse(romanNum.begin(), romanNum.end());
   int dec{0};
@@ -26,7 +27,7 @@ void RomanType::romanToDecimal() {
         dec += (dec >= 5 ? -1 : 1);
         break;
       case 'V':
-        dec += dec + 5;
+        dec += 5;
         break;
       case 'X':
         dec += 10 * (dec >= 50 ? -1 : 1);
@@ -44,8 +45,8 @@ void RomanType::romanToDecimal() {
         dec += 1000;
         break;
       default:
-        dec = -1;  //
-        break;
+        dec = -1;
+        return;
     }
   }
   m_decimal = dec;
