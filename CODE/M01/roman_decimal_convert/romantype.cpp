@@ -1,5 +1,9 @@
-#include "romantype.h"
+// Program name: romantype.cpp
+// Author: Grant Simpson
+// Date last updated: 03/22/2025
+// Purpose: Class definition for RomanType.
 
+#include "romantype.h"
 #include <iostream>
 #include <regex>
 #include <stdexcept>

@@ -1,6 +1,6 @@
 // Program name: main.cpp
 // Author: Grant Simpson
-// Date last updated: 03/19/2025
+// Date last updated: 03/22/2025
 // Purpose: Program to convert roman numerals to decimal. Makes use of the RomanType class.
 #include "romantype.h"
 #include <iostream>
@@ -9,11 +9,18 @@
 
 using namespace std;
 
+// Menu printer
 void printMenu();
+// Function to reset stream to working state after failure.
 void reset();
+// Read in an integer in the interval [1, upperBound]
 int readIntChoice(int upperBound);
+// Function that implements menu option #1.
+// Accepts user input and calls the RomanType conversion function.
 void convertRomanToDecimal(RomanType &roman);
+// Function that implements menu option #2
 void displayRomanNumeral(const RomanType &roman);
+// Function that implements menu option #3
 void displayDecimal(const RomanType &roman);
 int main()
 {
@@ -23,6 +30,7 @@ int main()
     printMenu();
     int choice{readIntChoice(NUMBER_OF_MENU_ITEMS)};
     cout << endl;
+    // Main menu loop
     while (true)
     {
         switch (choice)
