@@ -27,3 +27,30 @@ case sensitive, for example "MMXXV" is the correct representations of the number
 - Symbol I can be subtracted from V and X only.
 
 - Symbol X can be subtracted from L, M, and C only.
+
+## Installation and Execution
+
+### Prerequisites
+- make 
+- g++ 
+
+On Windows, the prerequisites are available through MinGW or Cygwin. If you're on macOS or linux, the prerequisites are available through your favorite package manager.
+
+1. Clone repository
+
+     - Using https: `git clone https://github.com/codeninja2000/CSCI202.git`
+
+     - Using ssh: `git@github.com:codeninja2000/CSCI202.git`
+
+     - Using Github CLI: `gh repo clone codeninja2000/CSCI202`
+
+2. Change to project folder
+     - `cd <path/to/repo>/roman_decimal_convert`
+
+3. Run make
+     - `make`
+
+4. Run executable
+
+## Author
+Grant Simpson
