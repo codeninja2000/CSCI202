@@ -26,8 +26,10 @@ int main()
 {
     const int NUMBER_OF_MENU_ITEMS{3};
     RomanType romanNumeral{};
-
-    printMenu();
+	cout << "***************************************************" << endl;
+	cout << "** Roman Numeral to Decimal Conversion Interface **" << endl;
+	cout << "***************************************************" << endl;
+	printMenu();
     int choice{readIntChoice(NUMBER_OF_MENU_ITEMS)};
     cout << endl;
     // Main menu loop
@@ -77,7 +79,7 @@ int readIntChoice(int upperBound)
         cin >> choice;
 
         if ((!cin || choice < 1 || choice > upperBound) && choice != -1)
-            cout << "Not a valid choice. Please try again." << endl;
+            cout << "Not a valid choice. Please try again:" << endl;
 
     } while ((!cin || choice < 1 || choice > upperBound) && choice != -1);
     return choice;
@@ -95,17 +97,20 @@ void convertRomanToDecimal(RomanType &roman)
         string romanNum;
         cout << "Enter roman numeral: ";
         cin >> romanNum;
+		cout << endl;
         roman.setRoman(romanNum);
+        roman.convertToDecimal();
+        
+        if (roman.decimal() == -1 || roman.decimal() == 0 || roman.conversionError()) {
+            roman.resetConversionError();
+        }
+        else
+            cout << roman.roman() << " = " << roman.decimal() << endl << endl;
     }
     catch (const invalid_argument &ia)
     {
-        std::cerr << "Error - Invalid Argument: " << ia.what() << endl;
+        cout << "Error - Invalid Argument: " << ia.what() << endl << endl;
     }
-    roman.convertToDecimal();
-    if (roman.decimal() == -1)
-        cout << "Error during conversion due to unknown symbol." << endl;
-    else
-        cout << roman.roman() << " = " << roman.decimal() << endl;
 }
 
 void displayRomanNumeral(const RomanType &roman)
@@ -116,7 +121,7 @@ void displayRomanNumeral(const RomanType &roman)
              << endl;
         return;
     }
-    cout << roman.roman() << endl;
+    cout << roman.roman() << endl << endl;
 }
 
 void displayDecimal(const RomanType &roman)
@@ -127,5 +132,5 @@ void displayDecimal(const RomanType &roman)
              << endl;
         return;
     }
-    cout << roman.decimal() << endl;
+    cout << roman.decimal() << endl << endl;
 }

@@ -37,10 +37,16 @@ public:
     // Function to print roman numeral
     void printRomanNumeral() const;
 
+    // Function to indicate if there was a conversion error
+    bool conversionError() const;
+    // Function to reset error flag
+    void resetConversionError();
+
 
 private:
     std::string m_roman; // stores roman numeral
     int m_decimal;       // stores decimal
+    bool m_conversionError; // indicates an error
     bool isValidRomanNumeral(std::string_view roman); // validates roman numeral
 };
 

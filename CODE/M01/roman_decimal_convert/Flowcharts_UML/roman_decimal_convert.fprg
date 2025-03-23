@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="roman_decimal_convert"/>
+        <attribute name="authors" value="Grant Simpson"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-23 12:14:43 PM"/>
+        <attribute name="created" value="R3JhbnQgU2ltcHNvbjtTTk9XLVdISVRFOzIwMjUtMDMtMjI7MDk6NTc6MzEgUE07MzMyNw=="/>
+        <attribute name="edited" value="R3JhbnQgU2ltcHNvbjtTTk9XLVdISVRFOzIwMjUtMDMtMjM7MTI6MTQ6NDMgUE07MTA7MzQ3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Identifiers prefixed with m are members of the RomanType class. Identifiers prefixed with k are constants."/>
+            <declare name="kNumOfMenuItems" type="Integer" array="False" size=""/>
+            <assign variable="kNumOfMenuItems" expression="3"/>
+            <declare name="mRomanNum" type="String" array="False" size=""/>
+            <assign variable="mRomanNum" expression="&quot;&quot;"/>
+            <declare name="mDecimal" type="Integer" array="False" size=""/>
+            <assign variable="mDecimal" expression="0"/>
+            <declare name="choice" type="Integer" array="False" size=""/>
+            <call expression="printMenu"/>
+            <assign variable="choice" expression="readIntChoice(kNumOfMenuItems)"/>
+            <while expression="choice != -1">
+                <if expression="choice == 1">
+                    <then>
+                        <call expression="convertRomanToDecimal(mRomanNum)"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="choice == 2">
+                    <then>
+                        <call expression="displayRomanNumeral(mRomanNum)"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="choice == 3">
+                    <then>
+                        <call expression="displayDecimal(mDecimal)"/>
+                    </then>
+                    <else/>
+                </if>
+                <call expression="printMenu"/>
+                <call expression="readIntChoice(kNumOfMenuItems)"/>
+                <assign variable="choice" expression="readIntChoice(kNumOfMenuItems)"/>
+            </while>
+        </body>
+    </function>
+    <function name="convertRomanToDecimal" type="Integer" variable="decimal">
+        <parameters>
+            <parameter name="romanNumeral" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="decimal" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter roman numeral: &quot;" newline="False"/>
+            <comment text="For simplicity, when assigning values to member variables I will access them directly here in Flowgaithm and not implement the accessors and mutators. In C++ I will be using accessors and mutators to access member variables outside of a class definition."/>
+            <input variable="romanNumeral"/>
+            <assign variable="decimal" expression="mConvertToDecimal(romanNumeral)"/>
+            <output expression="romanNumeral &amp; &quot; = &quot; &amp; decimal" newline="True"/>
+        </body>
+    </function>
+    <function name="displayDecimal" type="None" variable="">
+        <parameters>
+            <parameter name="decimal" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="decimal" newline="True"/>
+        </body>
+    </function>
+    <function name="displayRomanNumeral" type="None" variable="">
+        <parameters>
+            <parameter name="romanNumeral" type="String" array="False"/>
+        </parameters>
+        <body>
+            <output expression="romanNumeral" newline="True"/>
+        </body>
+    </function>
+    <function name="mConvertToDecimal" type="Integer" variable="dec">
+        <parameters>
+            <parameter name="romanNumeral" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="dec" type="Integer" array="False" size=""/>
+            <assign variable="dec" expression="0"/>
+            <declare name="c" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="Len(romanNumeral)-1" end="0" direction="dec" step="1">
+                <assign variable="c" expression="Char(romanNumeral, i)"/>
+                <if expression="c == &quot;I&quot;">
+                    <then>
+                        <if expression="dec &gt;= 5">
+                            <then>
+                                <assign variable="dec" expression="dec - 1"/>
+                            </then>
+                            <else>
+                                <assign variable="dec" expression="dec + 1"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="c == &quot;V&quot;">
+                    <then>
+                        <assign variable="dec" expression="dec + 5"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="c == &quot;X&quot;">
+                    <then>
+                        <if expression="dec &gt;= 50">
+                            <then>
+                                <assign variable="dec" expression="dec - 10"/>
+                            </then>
+                            <else>
+                                <assign variable="dec" expression="dec + 10"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="c == &quot;L&quot;">
+                    <then>
+                        <assign variable="dec" expression="dec + 50"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="c == &quot;C&quot;">
+                    <then>
+                        <if expression="dec &gt;= 500">
+                            <then>
+                                <assign variable="dec" expression="dec - 100"/>
+                            </then>
+                            <else>
+                                <assign variable="dec" expression="dec + 100"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="c == &quot;D&quot;">
+                    <then>
+                        <assign variable="dec" expression="dec + 500"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="c == &quot;M&quot;">
+                    <then>
+                        <assign variable="dec" expression="dec + 1000"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+    <function name="printMenu" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;1. Convert Roman Numeral to Decimal&quot;" newline="True"/>
+            <output expression="&quot;2. Display Roman Numeral&quot;" newline="True"/>
+            <output expression="&quot;3. Display Decimal&quot;" newline="True"/>
+            <output expression="&quot;Enter choice:&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="readIntChoice" type="Integer" variable="choice">
+        <parameters>
+            <parameter name="upperBound" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="choice" type="Integer" array="False" size=""/>
+            <assign variable="choice" expression="0"/>
+            <do expression="(choice &lt; 1 || choice &gt; upperBound) &amp;&amp; choice != -1">
+                <input variable="choice"/>
+                <if expression="(choice &lt; 1 || choice &gt; upperBound) &amp;&amp; choice != -1">
+                    <then>
+                        <output expression="&quot;Not a valid choice. Please try again:&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+@startuml class
+!theme sunlust
+skinparam ClassAttributeIconSize 0
+class RomanType {
+    - string m_roman
+    - int m_decimal
+    - isValidRomanNumeral()
+    + RomanType()
+    + RomanType()
+    + ~RomanType()
+    + decimal()
+    + setRoman()
+    + roman()
+    + convertToDecimal()
+    + printDecimal()
+    + printRoman()
+
+}
+
+@enduml
