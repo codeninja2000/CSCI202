@@ -6,7 +6,6 @@ class RomanType {
     - int m_decimal
     - isValidRomanNumeral()
     + RomanType()
-    + RomanType()
     + ~RomanType()
     + decimal()
     + setRoman()
