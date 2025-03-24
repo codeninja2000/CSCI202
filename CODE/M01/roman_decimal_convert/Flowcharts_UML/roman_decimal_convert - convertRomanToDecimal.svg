@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 4.5.0 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1300" height="1950">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,175 400,236"/>
+		<polygon fill="#404040" stroke="none" points="400,250 413,225 386,225"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1750 400,1811"/>
+		<polygon fill="#404040" stroke="none" points="400,1825 413,1800 386,1800"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 175,25 A 75 75, 0, 0 0, 175 175 L 625,175 A 75 75, 0, 0 0, 625 25 Z"/>
+			<text x="400" y="40" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="400" dy="50" unicode-bidi="embed">convertRomanToDecimal</tspan>
+				<tspan x="400" dy="50" unicode-bidi="embed">(String romanNumeral)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 200,1825 A 50 50, 0, 0 0, 200 1925 L 600,1925 A 50 50, 0, 0 0, 600 1825 Z"/>
+			<text x="400" y="1840" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="400" dy="50" unicode-bidi="embed">Return Integer decimal</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,375 400,436"/>
+			<polygon fill="#404040" stroke="none" points="400,450 413,425 386,425"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,600 400,875"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,875 400,1136"/>
+			<polygon fill="#404040" stroke="none" points="400,1150 413,1125 386,1125"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1250 400,1311"/>
+			<polygon fill="#404040" stroke="none" points="400,1325 413,1300 386,1300"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1525 400,1586"/>
+			<polygon fill="#404040" stroke="none" points="400,1600 413,1575 386,1575"/>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 225,250 L 225,375 L 575,375 L 575,250 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="225,275 575,275"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="250,250 250,375"/>
+				<text x="412" y="290" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer decimal</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 200,450 L 125,600 L 600,600 L 675,450 Z"/>
+				<text x="400" y="465" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">Output &quot;Enter roman</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed"> numeral: &quot; &#8230;</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="400,875 525,875"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#404040" stroke-width="3" stroke-dasharray="6,6" d="M 525,675 L 525,1075 L 1275,1075 L 1275,675 Z"/>
+					<text x="900" y="690" fill="#303030" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="900" dy="50" unicode-bidi="embed">For simplicity, when assigning values to</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> member variables I will access them</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> directly here in Flowgaithm and not</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> implement the accessors and mutators.</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> In C++ I will be using accessors and</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> mutators to access member variables</tspan>
+						<tspan x="900" dy="50" unicode-bidi="embed"> outside of a class definition.</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#D0E8FF" stroke="#7088A0" stroke-width="3" stroke-dasharray="none" d="M 175,1150 L 125,1250 L 625,1250 L 675,1150 Z"/>
+				<text x="400" y="1165" fill="#102840" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">Input romanNumeral</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 175,1325 L 175,1525 L 625,1525 L 625,1325 Z"/>
+				<text x="400" y="1340" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">decimal =</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed"> mConvertToDecimal</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed">(romanNumeral)</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 100,1600 L 25,1750 L 700,1750 L 775,1600 Z"/>
+				<text x="400" y="1615" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">Output romanNumeral &amp; &quot; = &quot; &amp;</tspan>
+					<tspan x="400" dy="50" unicode-bidi="embed"> decimal</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

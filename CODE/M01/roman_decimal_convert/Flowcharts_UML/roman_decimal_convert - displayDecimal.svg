@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 4.5.0 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="550">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="250,175 250,236"/>
+		<polygon fill="#404040" stroke="none" points="250,250 263,225 236,225"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="250,350 250,411"/>
+		<polygon fill="#404040" stroke="none" points="250,425 263,400 236,400"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 100,25 A 75 75, 0, 0 0, 100 175 L 400,175 A 75 75, 0, 0 0, 400 25 Z"/>
+			<text x="250" y="40" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="250" dy="50" unicode-bidi="embed">displayDecimal</tspan>
+				<tspan x="250" dy="50" unicode-bidi="embed">(Integer decimal)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 150,425 A 50 50, 0, 0 0, 150 525 L 350,525 A 50 50, 0, 0 0, 350 425 Z"/>
+			<text x="250" y="440" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="250" dy="50" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 75,250 L 25,350 L 425,350 L 475,250 Z"/>
+			<text x="250" y="265" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="250" dy="50" unicode-bidi="embed">Output decimal</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 4.5.0 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1975" height="6200">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,175 400,236"/>
+		<polygon fill="#404040" stroke="none" points="400,250 413,225 386,225"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,1175 400,6061"/>
+		<polygon fill="#404040" stroke="none" points="400,6075 413,6050 386,6050"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 200,25 A 75 75, 0, 0 0, 200 175 L 600,175 A 75 75, 0, 0 0, 600 25 Z"/>
+			<text x="400" y="40" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="400" dy="50" unicode-bidi="embed">mConvertToDecimal</tspan>
+				<tspan x="400" dy="50" unicode-bidi="embed">(String romanNumeral)</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 225,6075 A 50 50, 0, 0 0, 225 6175 L 575,6175 A 50 50, 0, 0 0, 575 6075 Z"/>
+			<text x="400" y="6090" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="400" dy="50" unicode-bidi="embed">Return Integer dec</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,375 400,436"/>
+			<polygon fill="#404040" stroke="none" points="400,450 413,425 386,425"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,550 400,611"/>
+			<polygon fill="#404040" stroke="none" points="400,625 413,600 386,600"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,750 400,811"/>
+			<polygon fill="#404040" stroke="none" points="400,825 413,800 386,800"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="400,950 400,1011"/>
+			<polygon fill="#404040" stroke="none" points="400,1025 413,1000 386,1000"/>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,250 L 250,375 L 550,375 L 550,250 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="250,275 550,275"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="275,250 275,375"/>
+				<text x="412" y="290" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer dec</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,450 L 250,550 L 550,550 L 550,450 Z"/>
+				<text x="400" y="465" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="400" dy="50" unicode-bidi="embed">dec = 0</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,625 L 250,750 L 550,750 L 550,625 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="250,650 550,650"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="275,625 275,750"/>
+				<text x="412" y="665" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">String c</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 250,825 L 250,950 L 550,950 L 550,825 Z"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="250,850 550,850"/>
+				<polyline fill="none" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" points="275,825 275,950"/>
+				<text x="412" y="865" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Integer i</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="775,1100 875,1100 875,1211"/>
+				<polygon fill="#404040" stroke="none" points="875,1225 888,1200 861,1200"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,5900 875,5975 450,5975 450,1188"/>
+				<polygon fill="#404040" stroke="none" points="450,1175 436,1199 463,1199"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,1325 875,1386"/>
+					<polygon fill="#404040" stroke="none" points="875,1400 888,1375 861,1375"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,2150 875,2211"/>
+					<polygon fill="#404040" stroke="none" points="875,2225 888,2200 861,2200"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,2650 875,2711"/>
+					<polygon fill="#404040" stroke="none" points="875,2725 888,2700 861,2700"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,3525 875,3586"/>
+					<polygon fill="#404040" stroke="none" points="875,3600 888,3575 861,3575"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,4025 875,4086"/>
+					<polygon fill="#404040" stroke="none" points="875,4100 888,4075 861,4075"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,4900 875,4961"/>
+					<polygon fill="#404040" stroke="none" points="875,4975 888,4950 861,4950"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="875,5400 875,5461"/>
+					<polygon fill="#404040" stroke="none" points="875,5475 888,5450 861,5450"/>
+					<g>
+						<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 600,1225 L 600,1325 L 1150,1325 L 1150,1225 Z"/>
+						<text x="875" y="1240" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="875" dy="50" unicode-bidi="embed">c = Char(romanNumeral, i)</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,1475 1400,1475 1400,1586"/>
+						<polygon fill="#404040" stroke="none" points="1400,1600 1413,1575 1386,1575"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1400,2025 1400,2125 913,2125"/>
+						<polygon fill="#404040" stroke="none" points="900,2125 924,2138 924,2111"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,1475 575,1475 575,2125 836,2125"/>
+						<polygon fill="#404040" stroke="none" points="850,2125 825,2111 825,2138"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,1400 L 725,1475 L 875,1550 L 1025,1475 Z"/>
+							<text x="875" y="1440" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;I&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1525,1675 1700,1675 1700,1786"/>
+							<polygon fill="#404040" stroke="none" points="1700,1800 1713,1775 1686,1775"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1700,1900 1700,2000 1438,2000"/>
+							<polygon fill="#404040" stroke="none" points="1425,2000 1449,2013 1449,1986"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1275,1675 1100,1675 1100,1786"/>
+							<polygon fill="#404040" stroke="none" points="1100,1800 1113,1775 1086,1775"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1100,1900 1100,2000 1361,2000"/>
+							<polygon fill="#404040" stroke="none" points="1375,2000 1350,1986 1350,2013"/>
+							<g>
+								<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 1400,1600 L 1250,1675 L 1400,1750 L 1550,1675 Z"/>
+								<text x="1400" y="1640" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1400" dy="50" unicode-bidi="embed">dec &gt;= 5</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1550,1800 L 1550,1900 L 1850,1900 L 1850,1800 Z"/>
+								<text x="1700" y="1815" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1700" dy="50" unicode-bidi="embed">dec = dec - 1</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 950,1800 L 950,1900 L 1250,1900 L 1250,1800 Z"/>
+								<text x="1100" y="1815" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1100" dy="50" unicode-bidi="embed">dec = dec + 1</tspan>
+								</text>
+							</g>
+							<ellipse cx="1400" cy="2000" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+							<text x="1625" y="1590" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1625" dy="50" unicode-bidi="embed">True</tspan>
+							</text>
+							<text x="1175" y="1590" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1175" dy="50" unicode-bidi="embed">False</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="2125" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="1390" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="1390" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,2300 1175,2300 1175,2411"/>
+						<polygon fill="#404040" stroke="none" points="1175,2425 1188,2400 1161,2400"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,2525 1175,2625 913,2625"/>
+						<polygon fill="#404040" stroke="none" points="900,2625 924,2638 924,2611"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,2300 575,2300 575,2625 836,2625"/>
+						<polygon fill="#404040" stroke="none" points="850,2625 825,2611 825,2638"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,2225 L 725,2300 L 875,2375 L 1025,2300 Z"/>
+							<text x="875" y="2265" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;V&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1025,2425 L 1025,2525 L 1325,2525 L 1325,2425 Z"/>
+							<text x="1175" y="2440" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1175" dy="50" unicode-bidi="embed">dec = dec + 5</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="2625" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="2215" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="2215" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,2800 1425,2800 1425,2911"/>
+						<polygon fill="#404040" stroke="none" points="1425,2925 1438,2900 1411,2900"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1425,3400 1425,3500 913,3500"/>
+						<polygon fill="#404040" stroke="none" points="900,3500 924,3513 924,3486"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,2800 575,2800 575,3500 836,3500"/>
+						<polygon fill="#404040" stroke="none" points="850,3500 825,3486 825,3513"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,2725 L 725,2800 L 875,2875 L 1025,2800 Z"/>
+							<text x="875" y="2765" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;X&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1575,3025 1750,3025 1750,3161"/>
+							<polygon fill="#404040" stroke="none" points="1750,3175 1763,3150 1736,3150"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1750,3275 1750,3375 1463,3375"/>
+							<polygon fill="#404040" stroke="none" points="1450,3375 1474,3388 1474,3361"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1275,3025 1100,3025 1100,3161"/>
+							<polygon fill="#404040" stroke="none" points="1100,3175 1113,3150 1086,3150"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1100,3275 1100,3375 1386,3375"/>
+							<polygon fill="#404040" stroke="none" points="1400,3375 1375,3361 1375,3388"/>
+							<g>
+								<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 1425,2925 L 1250,3025 L 1425,3125 L 1600,3025 Z"/>
+								<text x="1425" y="2990" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1425" dy="50" unicode-bidi="embed">dec &gt;= 50</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1600,3175 L 1600,3275 L 1900,3275 L 1900,3175 Z"/>
+								<text x="1750" y="3190" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1750" dy="50" unicode-bidi="embed">dec = dec - 10</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 950,3175 L 950,3275 L 1250,3275 L 1250,3175 Z"/>
+								<text x="1100" y="3190" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1100" dy="50" unicode-bidi="embed">dec = dec + 10</tspan>
+								</text>
+							</g>
+							<ellipse cx="1425" cy="3375" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+							<text x="1675" y="2940" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1675" dy="50" unicode-bidi="embed">True</tspan>
+							</text>
+							<text x="1175" y="2940" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1175" dy="50" unicode-bidi="embed">False</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="3500" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="2715" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="2715" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,3675 1175,3675 1175,3786"/>
+						<polygon fill="#404040" stroke="none" points="1175,3800 1188,3775 1161,3775"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,3900 1175,4000 913,4000"/>
+						<polygon fill="#404040" stroke="none" points="900,4000 924,4013 924,3986"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,3675 575,3675 575,4000 836,4000"/>
+						<polygon fill="#404040" stroke="none" points="850,4000 825,3986 825,4013"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,3600 L 725,3675 L 875,3750 L 1025,3675 Z"/>
+							<text x="875" y="3640" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;L&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1025,3800 L 1025,3900 L 1325,3900 L 1325,3800 Z"/>
+							<text x="1175" y="3815" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1175" dy="50" unicode-bidi="embed">dec = dec + 50</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="4000" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="3590" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="3590" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,4175 1450,4175 1450,4286"/>
+						<polygon fill="#404040" stroke="none" points="1450,4300 1463,4275 1436,4275"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1450,4775 1450,4875 913,4875"/>
+						<polygon fill="#404040" stroke="none" points="900,4875 924,4888 924,4861"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,4175 575,4175 575,4875 836,4875"/>
+						<polygon fill="#404040" stroke="none" points="850,4875 825,4861 825,4888"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,4100 L 725,4175 L 875,4250 L 1025,4175 Z"/>
+							<text x="875" y="4140" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;C&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1600,4400 1775,4400 1775,4536"/>
+							<polygon fill="#404040" stroke="none" points="1775,4550 1788,4525 1761,4525"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1775,4650 1775,4750 1488,4750"/>
+							<polygon fill="#404040" stroke="none" points="1475,4750 1499,4763 1499,4736"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1300,4400 1125,4400 1125,4536"/>
+							<polygon fill="#404040" stroke="none" points="1125,4550 1138,4525 1111,4525"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1125,4650 1125,4750 1411,4750"/>
+							<polygon fill="#404040" stroke="none" points="1425,4750 1400,4736 1400,4763"/>
+							<g>
+								<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 1450,4300 L 1275,4400 L 1450,4500 L 1625,4400 Z"/>
+								<text x="1450" y="4365" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1450" dy="50" unicode-bidi="embed">dec &gt;= 500</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1600,4550 L 1600,4650 L 1950,4650 L 1950,4550 Z"/>
+								<text x="1775" y="4565" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1775" dy="50" unicode-bidi="embed">dec = dec - 100</tspan>
+								</text>
+							</g>
+							<g>
+								<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 950,4550 L 950,4650 L 1300,4650 L 1300,4550 Z"/>
+								<text x="1125" y="4565" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1125" dy="50" unicode-bidi="embed">dec = dec + 100</tspan>
+								</text>
+							</g>
+							<ellipse cx="1450" cy="4750" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+							<text x="1700" y="4315" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1700" dy="50" unicode-bidi="embed">True</tspan>
+							</text>
+							<text x="1200" y="4315" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1200" dy="50" unicode-bidi="embed">False</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="4875" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="4090" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="4090" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,5050 1175,5050 1175,5161"/>
+						<polygon fill="#404040" stroke="none" points="1175,5175 1188,5150 1161,5150"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,5275 1175,5375 913,5375"/>
+						<polygon fill="#404040" stroke="none" points="900,5375 924,5388 924,5361"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,5050 575,5050 575,5375 836,5375"/>
+						<polygon fill="#404040" stroke="none" points="850,5375 825,5361 825,5388"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,4975 L 725,5050 L 875,5125 L 1025,5050 Z"/>
+							<text x="875" y="5015" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;D&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1000,5175 L 1000,5275 L 1350,5275 L 1350,5175 Z"/>
+							<text x="1175" y="5190" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1175" dy="50" unicode-bidi="embed">dec = dec + 500</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="5375" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="4965" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="4965" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,5550 1175,5550 1175,5661"/>
+						<polygon fill="#404040" stroke="none" points="1175,5675 1188,5650 1161,5650"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1175,5775 1175,5875 913,5875"/>
+						<polygon fill="#404040" stroke="none" points="900,5875 924,5888 924,5861"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,5550 575,5550 575,5875 836,5875"/>
+						<polygon fill="#404040" stroke="none" points="850,5875 825,5861 825,5888"/>
+						<g>
+							<path fill="#FFD8D8" stroke="#A07878" stroke-width="3" stroke-dasharray="none" d="M 875,5475 L 725,5550 L 875,5625 L 1025,5550 Z"/>
+							<text x="875" y="5515" fill="#401818" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="875" dy="50" unicode-bidi="embed">c == &quot;M&quot;</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFFFD8" stroke="#A0A078" stroke-width="3" stroke-dasharray="none" d="M 1000,5675 L 1000,5775 L 1350,5775 L 1350,5675 Z"/>
+							<text x="1175" y="5690" fill="#404018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1175" dy="50" unicode-bidi="embed">dec = dec + 1000</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="875" cy="5875" rx="25" ry="25" fill="#FFD8D8" stroke="#A07878" stroke-width="3"/>
+						<text x="1100" y="5465" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1100" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="650" y="5465" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="650" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0B0" stroke="#A08050" stroke-width="3" stroke-dasharray="none" d="M 100,1025 L 25,1100 L 100,1175 L 700,1175 L 775,1100 L 700,1025 Z"/>
+					<text x="400" y="1040" fill="#402000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="400" dy="50" unicode-bidi="embed">i = Len(romanNumeral)-1 to 0</tspan>
+						<tspan x="400" dy="50" unicode-bidi="embed"> decreasing</tspan>
+					</text>
+				</g>
+				<text x="837" y="1015" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="837" dy="50" unicode-bidi="embed">Next</tspan>
+				</text>
+				<text x="325" y="1190" fill="#404040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="325" dy="50" unicode-bidi="embed">Done</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 4.5.0 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="700" height="1125">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="350,125 350,186"/>
+		<polygon fill="#404040" stroke="none" points="350,200 363,175 336,175"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="350,925 350,986"/>
+		<polygon fill="#404040" stroke="none" points="350,1000 363,975 336,975"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 250,25 A 50 50, 0, 0 0, 250 125 L 450,125 A 50 50, 0, 0 0, 450 25 Z"/>
+			<text x="350" y="40" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="350" dy="50" unicode-bidi="embed">printMenu</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 250,1000 A 50 50, 0, 0 0, 250 1100 L 450,1100 A 50 50, 0, 0 0, 450 1000 Z"/>
+			<text x="350" y="1015" fill="#301040" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="350" dy="50" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="350,350 350,411"/>
+			<polygon fill="#404040" stroke="none" points="350,425 363,400 336,400"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="350,575 350,636"/>
+			<polygon fill="#404040" stroke="none" points="350,650 363,625 336,625"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="350,750 350,811"/>
+			<polygon fill="#404040" stroke="none" points="350,825 363,800 336,800"/>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 100,200 L 25,350 L 600,350 L 675,200 Z"/>
+				<text x="350" y="215" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="350" dy="50" unicode-bidi="embed">Output &quot;1. Convert Roman</tspan>
+					<tspan x="350" dy="50" unicode-bidi="embed"> Numeral to Decimal&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 100,425 L 25,575 L 600,575 L 675,425 Z"/>
+				<text x="350" y="440" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="350" dy="50" unicode-bidi="embed">Output &quot;2. Display Roman</tspan>
+					<tspan x="350" dy="50" unicode-bidi="embed"> Numeral&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 75,650 L 25,750 L 625,750 L 675,650 Z"/>
+				<text x="350" y="665" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="350" dy="50" unicode-bidi="embed">Output &quot;3. Display Decimal&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D8FFD8" stroke="#78A078" stroke-width="3" stroke-dasharray="none" d="M 125,825 L 75,925 L 575,925 L 625,825 Z"/>
+				<text x="350" y="840" fill="#184018" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="350" dy="50" unicode-bidi="embed">Output &quot;Enter choice:&quot;</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>
