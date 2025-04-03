@@ -1,0 +1,18 @@
+@startuml dvd_list_type
+!theme materia
+skinparam classAttributeIconSize 0
+
+class unorderedLinkedList<dvdType>
+class dvdListType {
+- searchDVDList(string, bool, nodeType<dvdType>*) const : void
++ dvdSearch(string title) const: bool
++ isDVDAvailable(string title) const : bool
++ dvdCheckOut(string title) : void
++ dvdCheckIn(string title) : void
++ dvdCheckTitle(string title) const : bool
++ dvdUpdateInStock(int num, string title) : void
++ dvdSetCopiesInStock(string title, int num) : void
++ dvdPrintTitle() const : void
+}
+unorderedLinkedList <|-- dvdListType
+@enduml

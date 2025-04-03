@@ -1,0 +1,19 @@
+@startuml infx2pfx
+!theme materia
+skinparam ClassAttributeIconSize 0
+class InfixToPostfix {
+- m_infx : string
+- m_pfx : string
+- precedence(char op) : int
+- isValidOperand(char opr) : bool
++ InfixToPostfix(const string& infx)
++ ~InfixToPostfix()
++ getInfix(const string& infx) : void
++ showInfix() const : void
++ showPostfix() const : void
++ convertToPostfix() : void
++ computePrecedence(char op1, char op2) : bool
+}
+
+
+@enduml

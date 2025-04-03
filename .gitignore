@@ -522,12 +522,11 @@ FodyWeavers.xsd
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
-
-
-CODE/.vscode/settings.json
-CODE/M01/roman_decimal_convert/compile_commands.json
-CODE/M01/roman_decimal_convert/.vscode/settings.json
-CODE/M01/roman_decimal_convert/main
-CODE/M01/roman_decimal_convert/.vscode/tasks.json
-M01/efficiency/main
-.vscode/settings.json
+*.bkp
+compile_commands.json
+main
+settings.json
+tasks.json
+malik_example_code
+GrantSimpsonM0*.docx
+out

@@ -1,33 +1,11 @@
+#ifndef LINKED_LIST_ITERATOR
+#define LINKED_LIST_ITERATOR
+#include "node.h"
 #include <iostream>
-#include <string>
-using namespace std;
-
-/* Linked list: A collection of elements (or nodes) where the order is determined
-   by the address (or link) that is stored in each node.
-
-    --------     ---------------      ---------------
-	| head | --> | data | link | -->  | data | link | --▼
-    --------	 ---------------      ---------------
-*/
-
-// Create a generic node
-template <typename Type>
-	struct Node {
-		Type data;
-		node<Type> *link;
-	};
-
-// Create a linked list class
-class LinkedList {
-	protected:
-		int m_count;
-		Node<Type> *first;
-		Node<Type> *last;
-};
 
 // To traverse a linked list, and iterator is needed.
 // An iterator is an object that produces each element in the list, one
-// element at a time. 
+// element at a time.
 template <class Type>
 class LinkedListIterator {
 public:
@@ -46,9 +24,9 @@ public:
 	// Overloaded pre-increment operator
 	// Postcondition: iterator advanced to next node
 	LinkedListIterator<Type> operator++();
-	
+
 	// Overloaded equality operator
-	// Postcondition: returns true if iterator is equal to rhs iterator 
+	// Postcondition: returns true if iterator is equal to rhs iterator
 	// and returns false otherwise
 	bool operator==(const LinkedListIterator<Type>& rhs) const;
 
@@ -60,4 +38,39 @@ public:
 private:
 	Node<Type> *m_current;
 
+};
+
+
+template <class Type>
+LinkedListIterator<Type>::LinkedListIterator() : m_current{nullptr} {}
+
+template <class Type>
+LinkedListIterator<Type>::LinkedListIterator(Node<Type> *ptr) : m_current{ptr} {}
+
+template <class Type>
+Type LinkedListIterator<Type>::operator*()
+{
+    return m_current->data;
 }
+
+template <class Type>
+LinkedListIterator<Type> LinkedListIterator<Type>::operator++()
+{
+    m_current = m_current->link;
+    return *this;
+}
+
+template <class Type>
+bool LinkedListIterator<Type>::operator==(const LinkedListIterator &rhs) const
+{
+    return (m_current == rhs.m_current);
+}
+
+template <class Type>
+bool LinkedListIterator<Type>::operator!=(const LinkedListIterator &rhs) const
+{
+    return (m_current != rhs.m_current);
+}
+
+
+#endif // LINKED_LIST_ITERATOR_H

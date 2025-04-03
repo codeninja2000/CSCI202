@@ -1,0 +1,27 @@
+@startuml doubly_linked_list
+
+!theme materia
+skinparam classAttributeIconSize 0
+
+class DoublyLinkedList<Type> {
+# count : int
+# first : nodeType<Type>*
+# last : nodeType<Type>*
+- copyList(const doublyLinkedList<Type>&) : void
++ doublyLinkedList()
++ doublyLinkedList(const doublyLinkedList<Type>&)
++ ~doublyLinkedList()
++ operator=(const doublyLinkedList<Type>&) : const doublyLinkedList<Type>
++ initializeList() : void
++ isEmptyList() const : bool
++ destroy() const : void
++ print() const : void
++ reversePrint() const : void
++ length() const : int
++ front() const : Type
++ back() const : Type
++ search(const Type&) const : bool
++ insert(const Type&) : void
++ deleteNode(cpnst Type&) : void
+}
+@enduml

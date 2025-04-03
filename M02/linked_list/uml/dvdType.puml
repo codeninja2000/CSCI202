@@ -1,0 +1,30 @@
+@startuml dvd_type
+
+!theme materia
+
+skinparam ClassAttributeIconSize 0
+
+class dvdType {
+    - dvdTitle : string
+    - movieStar1 : string
+    - movieStar2 : string
+    - movieProducer : string
+    - movieDirector : string
+    - movieProductionCo : string
+    - copiesInStock : int
+    + dvdType(string, string, string, string, string, string, int)
+    + setDVDInfo(string, string, string, string, string, string, int) : void
+    + getNoOfCopiesInStock() const : int
+    + checkOut() : void
+    + checkIn() : void
+    + printTitle() const : void
+    + pritntInfo() const : void
+    + checkTitle(string title) : bool 
+    + updateInStock(int num) : void
+    + setCopiesInStock(int num) : void
+    + getTitle() const : string
+    + operator==(const dvdType&) const : bool
+    + operator!=(const dvdType&) const : bool
+}
+
+@enduml
